@@ -34,6 +34,7 @@ abort_pending_operation=0
 # vars for summary:
 no_of_files=0
 approx_number_of_chars=0
+no_of_full_files=0
 
 # performing a loop until error occured
 while [ 0 ]
