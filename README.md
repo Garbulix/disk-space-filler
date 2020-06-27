@@ -10,11 +10,11 @@ There are two scripts:
 2) another one makes a lot of text files, filled up with random data. I wanted that files to be not-that-big, to have ability to open them (with no reason, I just wanted that).
 
 There are problems related to exact scripts:
-1) it is very likely that first script would run int an error without filling up in space, and there are some reasons:
+1) it is very likely that first script would run into an error without filling up space, and there are some reasons:
 - not enoguh i-nodes in ext partition
 - your FAT partition will run out of disk cluster.
 - maybe something else?
-But filling up space with empty files succeeded in 7 MiB UDF partition though.
+Filling up space with empty files succeeded in 7 MiB UDF partition though.
 2) text-files-generating-script runs extreeeeemly slow. It is so slow. It is extra slow. It's not practical at all. 
 
 ### summary
